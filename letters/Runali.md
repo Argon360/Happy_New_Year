@@ -263,7 +263,7 @@ Tata. Bye bye.
 <br>
 <br>
 
-<img src="../assets/images/celebration.gif" width="200" alt="Celebration" />
+<img src="../assets/images/cute-bye.gif" width="220" alt="Cute Bye" />
 
 <br>
 <br>
@@ -272,17 +272,19 @@ Tata. Bye bye.
 
 ---
 
-<div align="center">
-
-### *arre ek min...*
-*jane se pehele shayri sunke jao!* 😊
-
 <br>
 
-> **कुछ रिश्ते नाम से नहीं जाने जाते,**  
-> **कुछ एहसास शब्दों से नहीं बताए जाते।**  
-> **हम बस इतना जानते हैं,**  
-> **कुछ लोग ज़िंदगी को ख़ास बना जाते हैं।**
+<div align="center">
+
+<sub>*arre ek min... jane se pehele ek shayri sunke jao!* 😊</sub>
+
+<br>
+<br>
+
+> *“Kuch rishte naam se nahi jaane jaate,*
+> *kuch ehsaas shabdon se nahi bataye jaate.*
+> *Hum bas itna jaante hain,*
+> *kuch log zindagi ko khaas bana jaate hain.”*
 
 <br>
 
