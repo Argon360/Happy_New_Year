@@ -19,14 +19,18 @@ body {
     font-family: var(--font-body);
     color: var(--text-color);
     line-height: 1.8;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center; /* Vertically center on large screens */
     padding: 20px;
 }
 
+/* Responsive Container */
 .container {
     width: 100%;
-    max-width: 600px;
+    max-width: 600px; /* Limits width on desktop */
+    margin: 0 auto;
 }
 
 .card {
@@ -35,7 +39,16 @@ body {
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
     text-align: center;
+    width: 100%;
+    overflow: hidden; /* Prevents overflow */
     animation: fadeInUp 1.2s ease-out;
+}
+
+/* Images - Critical for Responsiveness */
+img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
 }
 
 /* Header */
@@ -44,6 +57,7 @@ body {
     color: var(--accent-color);
     font-size: 2.5rem;
     margin: 15px 0 5px;
+    line-height: 1.2;
 }
 
 .subtitle {
@@ -53,7 +67,7 @@ body {
 }
 
 .sparkle-icon {
-    width: 100px;
+    width: 80px; /* Smaller default size */
 }
 
 .envelope-icon {
@@ -65,10 +79,9 @@ body {
 /* Content Typography */
 .content {
     margin-top: 30px;
-    text-align: left; /* Default alignment */
+    text-align: left;
 }
 
-/* Center headings and specific blocks */
 .section h2, 
 .footer, 
 .shayari-section,
@@ -83,20 +96,19 @@ h2 {
     color: var(--accent-color);
     font-size: 1.8rem;
     margin-bottom: 15px;
-    margin-top: 10px;
+    margin-top: 30px; /* More space between sections */
 }
 
 p {
     margin-bottom: 15px;
     font-size: 1.05rem;
+    word-wrap: break-word; /* Prevents long words breaking layout */
 }
 
 /* Quotes and Highlights */
 .intro-quote {
     font-style: italic;
     color: #555;
-    border-left: none;
-    padding: 0;
     margin-bottom: 30px;
 }
 
@@ -135,8 +147,7 @@ p {
     list-style: none;
     padding: 0;
     margin: 20px 0;
-    text-align: left;
-    padding-left: 10px;
+    text-align: center; /* Centered list looks better on cards */
 }
 
 .moments-list li {
@@ -148,7 +159,7 @@ p {
 .divider {
     height: 1px;
     background: linear-gradient(to right, transparent, #ddd, transparent);
-    margin: 40px 0;
+    margin: 30px 0;
 }
 
 /* Footer */
@@ -159,7 +170,7 @@ p {
 }
 
 .footer-gif {
-    width: 200px;
+    width: 180px;
     border-radius: 10px;
     margin-top: 20px;
 }
@@ -186,14 +197,8 @@ p {
 
 /* Animations */
 @keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
 }
 
 @keyframes float {
@@ -202,17 +207,34 @@ p {
     100% { transform: translateY(0px); }
 }
 
-/* Mobile Adjustments */
+/* --- Mobile Device Optimization --- */
 @media (max-width: 480px) {
+    body {
+        padding: 10px; /* Smaller padding on edges */
+        align-items: flex-start; /* Start from top on mobile */
+    }
+
     .card {
-        padding: 30px 20px;
+        padding: 25px 20px; /* Compress padding inside card */
     }
     
     .header h1 {
-        font-size: 2rem;
+        font-size: 2rem; /* Smaller title */
     }
     
-    p {
-        font-size: 1rem;
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    p, .moments-list li {
+        font-size: 1rem; /* Readable base size */
+    }
+
+    .happy-new-year {
+        font-size: 1.8rem;
+    }
+    
+    .shayari {
+        font-size: 1.2rem;
     }
 }
