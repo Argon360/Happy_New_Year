@@ -263,7 +263,7 @@ Tata. Bye bye.
 <br>
 <br>
 
-<img src="../assets/images/cute-bye.gif" width="220" alt="Cute Bye" />
+<img src="../assets/images/goodbye.webp" width="220" alt="Cute Bye" />
 
 <br>
 <br>
