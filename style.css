@@ -1,0 +1,218 @@
+:root {
+    --bg-color: #fdf2f8; /* Very soft pink/white */
+    --card-bg: #ffffff;
+    --text-color: #4a4a4a;
+    --accent-color: #db2777; /* Deep pink for highlights */
+    --highlight-bg: #fce7f3; /* Light pink background for quotes */
+    --font-heading: 'Dancing Script', cursive;
+    --font-body: 'Quicksand', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: var(--font-body);
+    color: var(--text-color);
+    line-height: 1.8;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+}
+
+.card {
+    background: var(--card-bg);
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    animation: fadeInUp 1.2s ease-out;
+}
+
+/* Header */
+.header h1 {
+    font-family: var(--font-heading);
+    color: var(--accent-color);
+    font-size: 2.5rem;
+    margin: 15px 0 5px;
+}
+
+.subtitle {
+    font-style: italic;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.sparkle-icon {
+    width: 100px;
+}
+
+.envelope-icon {
+    width: 50px;
+    margin-top: 10px;
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Content Typography */
+.content {
+    margin-top: 30px;
+    text-align: left; /* Default alignment */
+}
+
+/* Center headings and specific blocks */
+.section h2, 
+.footer, 
+.shayari-section,
+.intro-quote,
+.small-quote,
+.highlight-box {
+    text-align: center;
+}
+
+h2 {
+    font-family: var(--font-heading);
+    color: var(--accent-color);
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 1.05rem;
+}
+
+/* Quotes and Highlights */
+.intro-quote {
+    font-style: italic;
+    color: #555;
+    border-left: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.highlight {
+    font-weight: 700;
+    color: var(--accent-color);
+}
+
+.highlight-box {
+    background-color: var(--highlight-bg);
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+.small-quote {
+    font-style: italic;
+    color: #777;
+    margin: 20px 0;
+}
+
+.tiny-text {
+    font-size: 0.85rem;
+    color: #999;
+}
+
+.highlight-pink {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e91e63;
+}
+
+/* List */
+.moments-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.moments-list li {
+    margin-bottom: 10px;
+    font-size: 1.05rem;
+}
+
+/* Divider */
+.divider {
+    height: 1px;
+    background: linear-gradient(to right, transparent, #ddd, transparent);
+    margin: 40px 0;
+}
+
+/* Footer */
+.happy-new-year {
+    font-size: 2.2rem;
+    color: var(--accent-color);
+    margin-bottom: 10px;
+}
+
+.footer-gif {
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Shayari */
+.shayari-section {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px dashed #ddd;
+}
+
+.shayari-intro {
+    font-size: 0.9rem;
+    color: #888;
+    margin-bottom: 15px;
+}
+
+.shayari {
+    font-family: var(--font-heading);
+    font-size: 1.4rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+/* Mobile Adjustments */
+@media (max-width: 480px) {
+    .card {
+        padding: 30px 20px;
+    }
+    
+    .header h1 {
+        font-size: 2rem;
+    }
+    
+    p {
+        font-size: 1rem;
+    }
+}
