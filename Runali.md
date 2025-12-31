@@ -1,14 +1,18 @@
 <div align="center">
 
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506556fd.gif" width="150" alt="Sparkles" />
+
 # ✨ HELLO HELLO HELLO… ✨
 
 ### *A year-end note, written honestly.*
 
-</div>
+<br>
+
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Envelope.png" alt="Envelope" width="60" />
 
 <br>
 
----
+</div>
 
 <br>
 
@@ -25,12 +29,17 @@
 > **But anyway… here I am.**
 
 <br>
-
----
-
 <br>
 
+<div align="center">
+  
+---
+  
 ## 🌿 Shuru se shuru karte hain
+
+</div>
+
+<br>
 
 Mujhe yaad hai hum kaise baat karna start hue the.
 
@@ -43,16 +52,25 @@ Phir ek time pe toh
 
 <br>
 
+<div align="center">
+
 > *But it’s okay.*  
 > *Life happens.*
 
+</div>
+
 <br>
+<br>
+
+<div align="center">
 
 ---
 
-<br>
-
 ## 🎞️ Phir sab wapas kaise start hua
+
+</div>
+
+<br>
 
 Honestly, mujhe yaad bhi nahi  
 hum wapas kaise baat karne lage.
@@ -64,7 +82,7 @@ Details blur ho chuki hain. 🤧
 
 <br>
 
-But ek din **clearly yaad hai —
+**But ek din clearly yaad hai —**
 
 <br>
 
@@ -78,12 +96,17 @@ Us din ke baad se —
 **sab change ho gaya.**
 
 <br>
+<br>
+
+<div align="center">
 
 ---
 
-<br>
-
 ## 🤍 Jab sab natural ho gaya
+
+</div>
+
+<br>
 
 Tab se hum bilkul  
 **normal doston** jaise baat karne lage.
@@ -94,7 +117,7 @@ Natural.
 Itna easily click hua ki aaj main  
 tere liye almost **Neha jaisa dost** ban gaya hoon. 😝  
 
-<sub>*Compare nahi kar raha — ye tere hi words hain.*</sub>
+<sub>*(Compare nahi kar raha — ye tere hi words hain.)*</sub>
 
 <br>
 
@@ -107,23 +130,26 @@ Technically aadha saal —
 **but still, that counts.**
 
 <br>
+<br>
+
+<div align="center">
 
 ---
 
-<br>
-
 ## 🧩 Yaadein jo quietly matter karti hain
+
+</div>
+
+<br>
 
 Ye message un sab cheezon ko justice nahi de sakta  
 jo maine is year experience ki hain.
 
 But kuch moments bas reh jaate hain —
 
-- tum logon ke saath endless timepass  
-- almost har weekend tumhare ghar pade rehna  
-- woh chhoti-chhoti baatein  
-  jo kisi list me nahi aati  
-  but yaad reh jaati hain  
+✨ tum logon ke saath endless timepass  
+✨ almost har weekend tumhare ghar pade rehna  
+✨ woh chhoti-chhoti baatein jo kisi list me nahi aati  
 
 <br>
 
@@ -134,12 +160,17 @@ mujhe apne **school friends** —
 unse milne ka bhi time nahi mil raha. 🤣
 
 <br>
+<br>
+
+<div align="center">
 
 ---
 
-<br>
-
 ## 🌸 Ek chhoti si baat
+
+</div>
+
+<br>
 
 By the way…
 
@@ -151,12 +182,17 @@ ki uspar comment karne wala
 **pehla insaan main tha.** 😜
 
 <br>
+<br>
+
+<div align="center">
 
 ---
 
-<br>
-
 ## 🫀 Jo kehna mushkil hota hai
+
+</div>
+
+<br>
 
 Is note me jo likha hai  
 woh sab chhoti-chhoti baatein hain.
@@ -190,12 +226,17 @@ unhe thoda sa bahar laane ki.
 **But honest hai.**
 
 <br>
+<br>
+
+<div align="center">
 
 ---
 
-<br>
-
 ## 🌙 Abhi ke liye
+
+</div>
+
+<br>
 
 Mujhe aur bhi bohot kuch kehna hai…  
 par abhi shabd saath nahi de rahe.
@@ -208,28 +249,41 @@ Aur shayad agle note me
 main thoda aur achha likh paunga.
 
 <br>
-
----
-
 <br>
 
 <div align="center">
+
+---
 
 ## 🎉 Happy New Year 🎉
 
 **Love you.**  
 Tata. Bye bye.
 
+<br>
+<br>
+
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z5eGk4eDk5eGk4eDk5eGk4eDk5eGk4eDk5eGk4eDk5eGk4eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o6fJcIM6RIjJ7WpC8/giphy.gif" width="200" alt="Celebration" />
+
+<br>
+<br>
+
 </div>
 
 ---
-<div align="right">
-  ### arre ek min...
-  jane se pehele se shayri sunke jao! 😊
+
+<div align="center">
+
+### *arre ek min...*
+*jane se pehele shayri sunke jao!* 😊
+
+<br>
 
 > **कुछ रिश्ते नाम से नहीं जाने जाते,**  
 > **कुछ एहसास शब्दों से नहीं बताए जाते।**  
 > **हम बस इतना जानते हैं,**  
 > **कुछ लोग ज़िंदगी को ख़ास बना जाते हैं।**
+
+<br>
 
 </div>
