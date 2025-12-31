@@ -6,7 +6,7 @@
 
 <br>
 
-<img src="assets/images/sparkles.gif" width="200" alt="Sparkles" />
+<img src="assets/images/sparkels.webp" width="200" alt="Sparkles" />
 
 <br>
 <br>

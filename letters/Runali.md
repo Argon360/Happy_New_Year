@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../assets/images/sparkles.gif" width="150" alt="Sparkles" />
+<img src="../assets/images/sparkels.webp" width="150" alt="Sparkles" />
 
 # ✨ HELLO HELLO HELLO… ✨
 
