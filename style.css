@@ -1,9 +1,9 @@
 :root {
-    --bg-color: #fdf2f8; /* Very soft pink/white */
+    --bg-color: #fdf2f8;
     --card-bg: #ffffff;
     --text-color: #4a4a4a;
-    --accent-color: #db2777; /* Deep pink for highlights */
-    --highlight-bg: #fce7f3; /* Light pink background for quotes */
+    --accent-color: #db2777;
+    --highlight-bg: #fce7f3;
     --font-heading: 'Dancing Script', cursive;
     --font-body: 'Quicksand', sans-serif;
 }
@@ -18,33 +18,34 @@ body {
     background-color: var(--bg-color);
     font-family: var(--font-body);
     color: var(--text-color);
-    line-height: 1.8;
+    line-height: 1.6;
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center; /* Vertically center on large screens */
+    /* safe center prevents data loss on small screens/landscape */
+    align-items: flex-start; 
     padding: 20px;
 }
 
-/* Responsive Container */
 .container {
     width: 100%;
-    max-width: 600px; /* Limits width on desktop */
-    margin: 0 auto;
+    /* Fluid width: 95% on small screens, up to 600px on large ones */
+    width: min(95%, 600px);
+    margin: 20px auto; /* Vertical breathing room */
 }
 
 .card {
     background: var(--card-bg);
     padding: 40px 30px;
     border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
     text-align: center;
     width: 100%;
-    overflow: hidden; /* Prevents overflow */
+    overflow: hidden;
     animation: fadeInUp 1.2s ease-out;
+    border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-/* Images - Critical for Responsiveness */
 img {
     max-width: 100%;
     height: auto;
@@ -55,7 +56,8 @@ img {
 .header h1 {
     font-family: var(--font-heading);
     color: var(--accent-color);
-    font-size: 2.5rem;
+    /* Fluid typography: scales smoothly from 1.8rem to 2.8rem */
+    font-size: clamp(1.8rem, 5vw + 1rem, 2.8rem);
     margin: 15px 0 5px;
     line-height: 1.2;
 }
@@ -64,10 +66,11 @@ img {
     font-style: italic;
     color: #888;
     margin-bottom: 20px;
+    font-size: 0.95rem;
 }
 
 .sparkle-icon {
-    width: 80px; /* Smaller default size */
+    width: 80px;
 }
 
 .envelope-icon {
@@ -76,7 +79,7 @@ img {
     animation: float 3s ease-in-out infinite;
 }
 
-/* Content Typography */
+/* Content */
 .content {
     margin-top: 30px;
     text-align: left;
@@ -94,22 +97,24 @@ img {
 h2 {
     font-family: var(--font-heading);
     color: var(--accent-color);
-    font-size: 1.8rem;
+    /* Fluid size for subheadings too */
+    font-size: clamp(1.5rem, 4vw, 2rem);
     margin-bottom: 15px;
-    margin-top: 30px; /* More space between sections */
+    margin-top: 30px;
 }
 
-p {
+p, li {
     margin-bottom: 15px;
     font-size: 1.05rem;
-    word-wrap: break-word; /* Prevents long words breaking layout */
+    color: #555;
 }
 
-/* Quotes and Highlights */
+/* Highlights */
 .intro-quote {
     font-style: italic;
     color: #555;
     margin-bottom: 30px;
+    padding: 0 10px;
 }
 
 .highlight {
@@ -119,122 +124,86 @@ p {
 
 .highlight-box {
     background-color: var(--highlight-bg);
-    padding: 20px;
+    padding: 25px 20px;
     border-radius: 15px;
-    margin: 20px 0;
+    margin: 25px 0;
     font-style: italic;
-}
-
-.small-quote {
-    font-style: italic;
-    color: #777;
-    margin: 20px 0;
-}
-
-.tiny-text {
-    font-size: 0.85rem;
-    color: #999;
+    border-left: 4px solid var(--accent-color); /* Added accent border */
 }
 
 .highlight-pink {
     font-size: 1.2rem;
     font-weight: bold;
     color: #e91e63;
+    display: block; /* Make it stand out on its own line if needed */
+    margin: 10px 0;
 }
 
-/* List */
 .moments-list {
     list-style: none;
     padding: 0;
     margin: 20px 0;
-    text-align: center; /* Centered list looks better on cards */
-}
-
-.moments-list li {
-    margin-bottom: 10px;
-    font-size: 1.05rem;
+    text-align: center;
 }
 
 /* Divider */
 .divider {
     height: 1px;
-    background: linear-gradient(to right, transparent, #ddd, transparent);
-    margin: 30px 0;
+    background: linear-gradient(to right, transparent, #eee, var(--accent-color), #eee, transparent);
+    margin: 35px 0;
+    opacity: 0.3;
 }
 
 /* Footer */
 .happy-new-year {
-    font-size: 2.2rem;
+    font-size: clamp(2rem, 6vw, 2.5rem);
     color: var(--accent-color);
     margin-bottom: 10px;
 }
 
 .footer-gif {
     width: 180px;
-    border-radius: 10px;
+    border-radius: 12px;
     margin-top: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 /* Shayari */
 .shayari-section {
-    margin-top: 40px;
-    padding-top: 20px;
-    border-top: 1px dashed #ddd;
-}
-
-.shayari-intro {
-    font-size: 0.9rem;
-    color: #888;
-    margin-bottom: 15px;
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 2px dashed #ffe4e6;
 }
 
 .shayari {
     font-family: var(--font-heading);
-    font-size: 1.4rem;
-    color: #555;
+    font-size: clamp(1.2rem, 3.5vw, 1.5rem);
+    color: #666;
     line-height: 1.6;
 }
 
 /* Animations */
 @keyframes fadeInUp {
-    from { opacity: 0; transform: translateY(20px); }
+    from { opacity: 0; transform: translateY(30px); }
     to { opacity: 1; transform: translateY(0); }
 }
 
 @keyframes float {
-    0% { transform: translateY(0px); }
-    50% { transform: translateY(-10px); }
-    100% { transform: translateY(0px); }
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-8px); }
 }
 
-/* --- Mobile Device Optimization --- */
+/* Mobile Tweaks */
 @media (max-width: 480px) {
     body {
-        padding: 10px; /* Smaller padding on edges */
-        align-items: flex-start; /* Start from top on mobile */
+        padding: 10px;
     }
-
+    
     .card {
-        padding: 25px 20px; /* Compress padding inside card */
+        padding: 30px 20px;
     }
-    
+
     .header h1 {
-        font-size: 2rem; /* Smaller title */
-    }
-    
-    h2 {
-        font-size: 1.6rem;
-    }
-
-    p, .moments-list li {
-        font-size: 1rem; /* Readable base size */
-    }
-
-    .happy-new-year {
-        font-size: 1.8rem;
-    }
-    
-    .shayari {
-        font-size: 1.2rem;
+        margin-top: 10px;
     }
 }
