@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506556fd.gif" width="150" alt="Sparkles" />
+<img src="../assets/images/sparkles.gif" width="150" alt="Sparkles" />
 
 # ✨ HELLO HELLO HELLO… ✨
 
@@ -8,7 +8,7 @@
 
 <br>
 
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Envelope.png" alt="Envelope" width="60" />
+<img src="../assets/images/envelope.png" alt="Envelope" width="60" />
 
 <br>
 
@@ -263,7 +263,7 @@ Tata. Bye bye.
 <br>
 <br>
 
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z5eGk4eDk5eGk4eDk5eGk4eDk5eGk4eDk5eGk4eDk5eGk4eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o6fJcIM6RIjJ7WpC8/giphy.gif" width="200" alt="Celebration" />
+<img src="../assets/images/celebration.gif" width="200" alt="Celebration" />
 
 <br>
 <br>

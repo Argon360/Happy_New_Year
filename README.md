@@ -6,7 +6,7 @@
 
 <br>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506556fd.gif" width="200" alt="Sparkles" />
+<img src="assets/images/sparkles.gif" width="200" alt="Sparkles" />
 
 <br>
 <br>
@@ -16,7 +16,7 @@ I wrote something honest, something simple, and something straight from the hear
 
 <br>
 
-### 💌 [Click Here to Read the Note](./Runali.md) 💌
+### 💌 [Click Here to Read the Note](letters/Runali.md) 💌
 
 <br>
 <br>
